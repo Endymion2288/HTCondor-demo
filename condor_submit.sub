@@ -3,7 +3,7 @@ Executable = /afs/cern.ch/user/c/chiw/condor/preCut-mu-condor/run_job.sh
 arguments = $(DATA_DIR)
 Transfer_Input_Files = /afs/cern.ch/user/c/chiw/condor/preCut-mu-condor/runReadTreeX.C.tpl, \
                        /afs/cern.ch/user/c/chiw/condor/preCut-mu-condor/ReadTree.C
-Transfer_Output_Files = filtered_data_preCut_mu.root
+Transfer_Output_Files = filtered_data_preCut.root
 Output_Destination = root://eosuser.cern.ch/$(DATA_DIR)
 
 WhenToTransferOutput = ON_EXIT  

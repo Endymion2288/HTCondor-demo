@@ -615,7 +615,7 @@ void ReadTree::Loop()
 
     // Storing the filtered candidates.
     // Create a new ROOT file to save the filtered data.
-    TFile* outputFile = new TFile("filtered_data_preCut_mu.root", "RECREATE");
+    TFile* outputFile = new TFile("filtered_data_preCut.root", "RECREATE");
     // Write the output file.
     outputTree->Write();
     outputFile->Close();
